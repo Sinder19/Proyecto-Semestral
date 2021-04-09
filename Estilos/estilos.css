@@ -1,0 +1,38 @@
+.text_tit{
+    font-size: 25px;
+    font-family: 'Times New Roman', serif;
+    background-color: #9b9b9b;
+    color: #353535;
+    border: 5px ridge #4b4b4b;
+    padding: 5px;
+    text-align: center;
+    width: 150px;
+    float: right;
+    
+
+}
+
+.centrado{
+    text-align: center;
+}
+
+.fuente_precios{
+    font-family: 'Lobster Two', cursive;
+    line-height: 0.5;
+}
+.fuente_nombres{
+    font-family: 'Lobster Two', cursive;
+    font-weight: bold;
+}
+
+.fondo{
+    background-color: #C0C0C0;
+}
+
+.derecha{
+    text-align: right;
+}
+
+.separacion_der{
+    padding-right: 10px;
+}
