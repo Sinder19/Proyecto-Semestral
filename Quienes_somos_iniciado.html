@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="Estilos/estilos.css">
+    <title>¿Quiénes somos?</title>
+</head>
+
+<body>
+
+    <!--Inicio Barra Menu-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="Home_iniciado.html">AmonStore</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navb">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navb">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="Home_iniciado.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Quienes_somos_iniciado.html"
+                        style="background-color: #6c757d; color: white;">¿Quiénes somos?</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        Productos
+                    </a>
+                    <div class="dropdown-menu" style="background-color: #343a40!important;">
+                        <a class="dropdown-item" href="poleras_iniciado.html" style=" color: rgba(255,255,255,.5);">Poleras</a>
+                        <a class="dropdown-item" href="#" style=" color: rgba(255,255,255,.5);">Pantalones</a>
+                        <a class="dropdown-item" href="polerones_iniciado.html" style=" color: rgba(255,255,255,.5);">Polerones</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown" style="margin-left: 700px;">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-person-square" viewBox="0 0 16 16">
+                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                            <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1v-1c0-1-1-4-6-4s-6 3-6 4v1a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12z"/>
+                          </svg> Cuenta
+                    </a>
+                    <div class="dropdown-menu" style="background-color: #343a40!important;">
+                        <a class="dropdown-item" href="#" style=" color: rgba(255,255,255,.5);">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-lines-fill" viewBox="0 0 16 16">
+                                <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2z"/>
+                              </svg> Mi Perfil
+                        </a>
+                        <a class="dropdown-item" href="#" style=" color: rgba(255,255,255,.5);">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+                                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                              </svg> Carrito de Compras
+                        </a>
+                        <a class="dropdown-item" href="Quienes_somos.html" style=" color: rgba(255,255,255,.5);">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z"/>
+                                <path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
+                              </svg> Cerrar Sesión
+                        </a>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <!--Fin Barra Menu-->
+
+    <br>
+    <div class="container quienes_somos">
+        <div class="row">
+            <div class="col-md-3 centrado" style="padding-right: 0; padding-left: 0; padding-top: 1%; padding-bottom: 2%;">
+                <img src="imagenes/logo.jpg" alt="logo" width="250" style="border: black solid 2px;">
+            </div>
+            <div class="col-md-9">
+                <h2 class="centrado"><u>Historia</u></h2>
+                <p style="text-align: justify; font-style: oblique;"> Nuestra tienda fue creada por Alex Gonzalez y
+                    Monserrat Caceres el
+                    19 de enero del año 2021. Empezando
+                    como una pyme con pocos recursos que durante el tiempo se fue expandiendo a diferentes tipos de
+                    ventas
+                    tales como poleras,polerones y articulos de epoca. Cajas sorpresa para el dia de los enamorados,
+                    huevitos de pascua y canastas de pascua para el dia de la pascua de resurreccion hasta ampliarse el
+                    camino a ventas por mayor y al detalle. en nuestra tienda podras encontrar todo tipo de diseños de ropa
+                    top quality a precio consumidor y a precio vendedor. trabajamos con las mejores prendas posibles,tela
+                    suave y elasticada, 100% algodon y estampado hecho con serigrafia.</p>
+            </div>  
+        </div>
+    </div>
+    <br><br>
+    <div class="container-fluid pie_pag">
+        <div class="row texto_izq">
+            <div class="col-md-4">
+                <br>
+                <h4>Contáctanos</h4>
+                <p>——————————————————</p>
+                <p class="texto_izq">Telefono: +56 9 4998 3478</p>
+                <p class="texto_izq">Correo Electrónico: a.gonzalez3@duocuc.cl</p>
+            </div>
+            <div class="col-md-4">
+                <br>
+                <h4>Redes Sociales</h4>
+                <p>——————————————————</p>
+                <p><a href="https://www.instagram.com/amon.store._/?hl=es" class="fa fa-instagram pie_pag"> Instagram</a></p>
+
+                <p><a href="#" class="fa fa-facebook pie_pag"> Facebook</a></p>
+            </div>
+            <div class="col-md-4">
+                <br>
+                <h4>Días de Atención</h4>
+                <p>——————————————————</p>
+                <p>Lunes: 10:00 a 20:00</p>
+                <p>Martes: 10:00 a 20:00</p>
+                <p>Miércoles: 10:00 a 20:00</p>
+                <p>Jueves: 10:00 a 20:00</p>
+                <p>Viernes: 10:00 a 20:00</p>
+            </div>
+        </div>
+        <div class="row centrado pie_pag" style="font-style: oblique;">
+            <div class="col-md-12">
+                <p>Encúentranos en nuestro local Rio Amazonas #3638, Conchalí</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
