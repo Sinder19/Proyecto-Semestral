@@ -12,7 +12,7 @@
 }
 
 body{
-    background-color: #C0C0C0;
+    background-color white;
 }
 
 .derecha{
@@ -87,9 +87,9 @@ body{
 }
 
 .quienes_somos{
-    background-color: #6c757d; 
+    background-color: black; 
     border: black solid 2px;
-    color: #ffffff;
+    color: #fffffb;
     font-family: 'Lobster Two', cursive;
     padding-left: 3%;
     padding-right: 3%;
