@@ -12,7 +12,7 @@
 }
 
 body{
-    background-color white;
+    background-color: #c0c0c0 !important;
 }
 
 .derecha{
@@ -94,4 +94,46 @@ body{
     padding-left: 3%;
     padding-right: 3%;
     padding-top: 1%;
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 50px !important;
+    width: 85px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+.fa:hover {
+    opacity: 0.7;
+    color: white !important;
+    text-decoration: none !important;
+}
+
+  
+.fa-instagram {
+    background: #125688;
+    color: white;
+    
+  }
+  
+
+@media only screen and (max-width:400px){
+    .fuente_precios{
+        font-family: 'Lobster Two', cursive;
+        line-height: 0.5;
+        font-size: 20px;
+    }
+    .fuente_nombres{
+        font-family: 'Lobster Two', cursive;
+        font-weight: bold;
+        font-size: 25px;  
+    }
+    .ajuste_foto{
+        width: 100%;
+        max-width: 200px;
+    }
 }
