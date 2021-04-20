@@ -13,7 +13,7 @@
 
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -45,7 +45,7 @@
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="javascript:void(0)"
-                        style="background-color: #6c757d; color: white;">Inicio</a>
+                        style="background-color: #6c757d; color: white; border-radius: 40px;">Inicio</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="Quienes_somos.html">¿Quiénes somos?</a>
@@ -63,7 +63,7 @@
             </ul>
             <!--Registrarse / Iniciar Sesion-->
             <ul class="nav navbar-nav navbar-right se">
-                <li class="separacion_der separacion_izq">
+                <li class="separacion">
                     <a href="Registrarse.html" style="color: rgba(255,255,255,.5);">
                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
                             class="bi bi-person-circle" viewBox="0 0 16 16">
@@ -74,7 +74,7 @@
                         Registrarse
                     </a>
                 </li>
-                <li class="separacion_der">
+                <li class="separacion">
                     <a href="Inicion_sesion.html" style="color: rgba(255,255,255,.5);">
                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
                             class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
@@ -124,9 +124,13 @@
     <div class="container centrado">
         <div class="row">
             <div class="col-md-4">
-                <img src="imagenes/polera1.jpg" alt="Polera 1" width="250" class="ajuste_foto">
-                <h2 class="fuente_nombres">Polera Jordan</h2>
-                <h3 class="fuente_precios">Precio: $7.500</h2>
+                <div class="card">
+                    <img src="imagenes/polera1.jpg" alt="Polera 1" style="width:100%" class="ajuste_fotos">
+                    <h1>Polera Jordan</h1>
+                    <p class="price">$7.500</p>
+                    <p>Polera Top Quality con estampado a serigrafia y tela prelavada</p>
+                    <p><button>Añadir al carrito</button></p>
+                </div>
             </div>
             <div class="col-md-4">
                 <img src="imagenes/polera2.jpg" alt="Polera 2" width="250" class="ajuste_foto">
@@ -174,9 +178,10 @@
                 <br>
                 <h4>Redes Sociales</h4>
                 <p>——————————————————</p>
-                
+
                 <p><a href="https://www.instagram.com/amon.store._/?hl=es" class="fa fa-instagram"></a>
-                <a href="#" class="fa fa-facebook"></a></p>
+                    <a href="#" class="fa fa-facebook"></a>
+                </p>
             </div>
             <div class="col-md-4">
                 <br>
